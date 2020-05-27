@@ -42,7 +42,7 @@
 }
 .jkeyboard .jline .return {
   width: 120px;
-  background: url("../assets/play.png")no-repeat center right;
+  background: url("../assets/play.png")no-repeat center center;
 }
 .jkeyboard .jline .space {
   width: 456px;
