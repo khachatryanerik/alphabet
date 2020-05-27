@@ -51,7 +51,7 @@
   width: 84px;
 }
 .jkeyboard .jline .layout_switch {
-  background: url("../assets/locale.png") no-repeat center right;
+  background: url("../assets/locale.png") no-repeat center center;
 }
 .jkeyboard .jline .shift {
   width: 100px;
