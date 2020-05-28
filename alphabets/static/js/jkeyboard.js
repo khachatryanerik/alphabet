@@ -58,7 +58,7 @@ function voice(text) {
 
 
     var layouts = {
-        selectable: ['english', 'greek', 'georgian'],
+        selectable: ['english', 'greek', 'georgian', 'arabic',],
         english: [
             ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p',],
             ['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l',],
@@ -76,6 +76,12 @@ function voice(text) {
             [ 'ი','კ', 'ლ','მ', 'ნ', 'ჲ', 'ო', 'პ', 'ჟ', ],
             [ 'რ', 'ს','ტ', 'ჳ', 'უ', 'ფ', 'ქ', 'ღ', ],
             [ 'shift','ყ', 'შ', 'ჩ', 'ც','ძ', 'წ',  'backspace'],
+            ['layout_switch', 'space', 'return']
+        ],
+        arabic: [
+            ['ا ', 'ب ', 'ت ', 'ث ', 'ج ', 'ح ', 'خ ' , 'د ', 'ذ  ',],
+            ['ر ', 'ز ', 'س'  , 'ش ', 'ص ', 'ض  ',  'ط  ' , 'ظ ', 'ع ',],
+            ['shift','غ ', 'ف ', 'ق ', 'ق ', 'ل ', 'م ', 'ن ', 'ه ', 'و ', 'ي ', 'backspace'],
             ['layout_switch', 'space', 'return']
         ],
     };
