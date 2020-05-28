@@ -5,7 +5,7 @@
     <title>Keyboard Example</title>
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <link rel="stylesheet" href="../static/css/jkeyboard.css?2">
-    <script src="../static/js/jkeyboard.js?2"></script>
+    <script src="../static/js/jkeyboard.js?3"></script>
 
     <style>
         body {
@@ -33,15 +33,6 @@
     $('#keyboard').jkeyboard({
         layout: "english",
         input: $('#search_field'),
-        customLayouts: {
-            selectable: ["english"],
-            english_capital: [
-                ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P',],
-                ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L',],
-                ['Z', 'X', 'C', 'V', 'B', 'N', 'M', '\'', '.'],
-                ['layout_switch', 'space', 'backspace']
-            ],
-        }
     });
 </script>
 </body>

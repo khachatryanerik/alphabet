@@ -1,3 +1,14 @@
+body {
+  background: #144766
+}
+
+#search_field {
+  display: block;
+  margin: 0 auto;
+  padding: 5px 10px;
+  font-size: 28px;
+  width: 50%;
+}
 .jkeyboard {
   display: inline-block;
 }
@@ -51,7 +62,7 @@
   width: 84px;
 }
 .jkeyboard .jline .layout_switch {
-  background: url("../assets/locale.png") no-repeat center center;
+  background: url("../assets/locale.png?2") no-repeat center center;
 }
 .jkeyboard .jline .shift {
   width: 100px;
