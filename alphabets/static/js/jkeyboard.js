@@ -58,7 +58,7 @@ function voice(text) {
 
 
     var layouts = {
-        selectable: ['english', 'greek', 'georgian', 'arabic',],
+        selectable: ['english', 'greek', 'georgian', 'arabic', 'persian', 'hebrew'],
         english: [
             ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p',],
             ['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l',],
@@ -79,11 +79,24 @@ function voice(text) {
             ['layout_switch', 'space', 'return']
         ],
         arabic: [
-            ['ا ', 'ب ', 'ت ', 'ث ', 'ج ', 'ح ', 'خ ' , 'د ', 'ذ  ',],
-            ['ر ', 'ز ', 'س'  , 'ش ', 'ص ', 'ض  ',  'ط  ' , 'ظ ', 'ع ',],
-            ['shift','غ ', 'ف ', 'ق ', 'ق ', 'ل ', 'م ', 'ن ', 'ه ', 'و ', 'ي ', 'backspace'],
+            ['ا ', 'ب ', 'ت ', 'ث ', 'ج ', 'ح ', 'خ ' , 'د ', 'ذ  ', 'ر ',],
+            ['ز ', 'س'  , 'ش ', 'ص ', 'ض  ',  'ط  ' , 'ظ ', 'ع ','غ ',],
+            ['shift', 'ف ', 'ق ', 'ق ', 'ل ', 'م ', 'ن ', 'ه ', 'و ', 'ي ', 'backspace'],
             ['layout_switch', 'space', 'return']
         ],
+        persian: [
+            ['ا', 'ب', 'پ', 'ت', 'ث', 'ج', 'چ', 'ح', 'خ'],
+            ['د', 'ذ', 'ر', 'ز', 'ژ', 'س', 'ش', 'ص', 'ض',],
+            [ 'ط','ظ', 'ع', 'غ', 'ف', 'ق', 'ک', 'گ', 'ل'],
+            ['shift', 'م', 'ن' ,'و', 'ه', 'ی', 'backspace' ],
+            ['layout_switch', 'space', 'return']
+        ],
+        hebrew: [
+            ['א', 'בּ', 'ב', 'ג', 'ד', 'ה', 'ו', 'ז', 'ח', 'ט',],
+            [ 'י', 'כּ', 'ל', 'מ', 'נ', 'ס', 'ע', 'פּ', 'פ', 'צ',],
+            ['shift', 'ק', 'ר', 'שׁ', 'שׂ', 'תּ', 'ת', 'backspace' ],
+            ['layout_switch', 'space', 'return']
+        ]
     };
 
     var shift = false, capslock = false, layout = 'english', layout_id = 0;
